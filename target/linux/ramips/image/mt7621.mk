@@ -1761,7 +1761,7 @@ TARGET_DEVICES += xiaomi_mi-router-4
 define Device/xiaomi_mi-router-4a-gigabit
   $(Device/dsa-migration)
   $(Device/uimage-lzma-loader)
-  IMAGE_SIZE := 16064k
+  IMAGE_SIZE := 32448k
   DEVICE_VENDOR := Xiaomi
   DEVICE_MODEL := Mi Router 4A
   DEVICE_VARIANT := Gigabit Edition
